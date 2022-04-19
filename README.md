@@ -1,7 +1,7 @@
 
 # Project SIN - Qualité d'air
 
-Projet final en spécialité SIN - Station de surveillance de qualité de l'air
+Projet final en spécialité SIN - Station de surveillance de qualité de l'air.
 
 
 ## Auteurs
