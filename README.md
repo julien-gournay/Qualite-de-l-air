@@ -4,14 +4,14 @@
 Projet final en spécialité SIN - Station de surveillance de qualité de l'air
 
 
-## Authors
+## Auteurs
 
 - [@julien-gournay](https://github.com/julien-gournay)
 - [@adziwo](https://github.com/Adziwo)
 - [@samuel-petit](https://github.com/albatar)
 
 
-## Used By
+## Utilisé par
 
 Ce projet est utilisé à des fins pédagogiques pour :
 
