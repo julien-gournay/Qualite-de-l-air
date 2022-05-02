@@ -16,6 +16,11 @@ Projet final en SIN - Station de surveillance de la qualité de l'air.
 ### [Login](https://julien-gournay.github.io/Qualite-de-l-air/login)
 
 
+## Pannel développeur
+
+Pour modifier le code (https://github.dev/julien-gournay/Qualite-de-l-air/commit/)
+
+
 ## Utlisité pour
 
 Ce projet est utilisé à des fins éducatives pour :
