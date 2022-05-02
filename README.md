@@ -7,8 +7,8 @@ Projet final en SIN - Station de surveillance de la qualité de l'air.
 ## Autheurs
 
 - [@julien-gournay](https://github.com/julien-gournay)
-- [@adziwo]
-- [@samuel-petit]
+- [@adziwo](https://github.com/Adziwo)
+- [@samuel-petit](https://github.com/albatar)
 
 
 ## Visualisation pages
