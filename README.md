@@ -11,7 +11,7 @@ Projet final en SIN - Station de surveillance de la qualité de l'air.
 - [@samuel-petit]
 
 
-## Visualisation
+## Visualisation pages
 
 ### [Login](https://julien-gournay.github.io/Qualite-de-l-air/login)
 
