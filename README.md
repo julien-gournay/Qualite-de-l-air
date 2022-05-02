@@ -1,24 +1,29 @@
 
-# Project SIN - Air Quality
+# Projet SIN - Qualité de l'air
 
-Terminal Project in Sin - Air Quality Monitoring Station
+Projet final en SIN - Station de surveillance de la qualité de l'air.
 
 
-## Authors
+## Autheurs
 
 - [@julien-gournay](https://github.com/julien-gournay)
 - [@adziwo]
 - [@samuel-petit]
 
 
-## Used By
+## Visualisation
 
-This project is used for educational purposes for:
+### [Login](https://julien-gournay.github.io/Qualite-de-l-air/login)
+
+
+## Utlisité pour
+
+Ce projet est utilisé à des fins éducatives pour :
 
 - Colbert High School, Tourcoing FRANCE
 
 
 ## Support
 
-For support, email juliengournay@free.fr or join our Slack channel.
+Pour toute informations, par email juliengournay@free.fr
 
