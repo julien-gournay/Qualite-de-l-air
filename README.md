@@ -16,7 +16,6 @@ Terminal Project in Sin - Air Quality Monitoring Station
 This project is used for educational purposes for:
 
 - Colbert High School, Tourcoing FRANCE
-- 
 
 
 ## Support
