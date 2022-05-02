@@ -32,3 +32,42 @@ img{
     transform: translate(-50%, -50%);
     z-index: -1;
 }
+
+
+
+.background {
+    font-family: 'Product Sans';
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: beige;
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 0vh;
+    Height: 50vh;
+}
+
+
+.background2 {
+    font-family: 'Product Sans';
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    position: relative;
+    color: white;
+    text-align: center;
+    Height: 50vh;
+   
+}
+
+.info {
+    
+}
+
+
+.time {
+    font-family: "Product Sans", serif;
+    color: black;
+    text-align: center;
+    font-size: 5vh;
+}
