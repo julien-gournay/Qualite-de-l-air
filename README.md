@@ -25,7 +25,8 @@ Pour modifier le code (https://github.dev/julien-gournay/Qualite-de-l-air/commit
 
 Ce projet est utilisé à des fins éducatives pour :
 
-- Colbert High School, Tourcoing FRANCE
+- Lycée numérique Colbert, Tourcoing FRANCE
+- Portfolio
 
 
 ## Support
