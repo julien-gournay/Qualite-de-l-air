@@ -1,7 +1,7 @@
 
 # 🪟 Projet SIN - Qualité de l'air
 
-Projet final en SIN - Station de surveillance de la qualité de l'air.
+Projet final en SIN - " Station de surveillance de la qualité de l'air "
 
 
 ## 🧩 Auteurs
@@ -17,12 +17,12 @@ Projet final en SIN - Station de surveillance de la qualité de l'air.
 ### [Maquette](https://www.figma.com/file/VxXSqZXTNwkWg2YLGAgDE3/Projet-SIN---Qualit%C3%A9-de-l'air?node-id=0%3A1)
 
 
-## 🔐 Dev
+## 🔐 Développement
 
 Modification du code : (https://github.dev/julien-gournay/Qualite-de-l-air/commit/)
 
 
-## 💚 Utilisé pour
+## 💚 Principe
 
 Ce projet est utilisé à des fins éducatives pour :
 
@@ -32,5 +32,5 @@ Ce projet est utilisé à des fins éducatives pour :
 
 ## 🔨 Support
 
-Pour toute informations, par email juliengournay@free.fr
+Pour toutes informations : juliengournay@free.fr
 
