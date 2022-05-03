@@ -12,7 +12,7 @@
 
 .background {
     font-family: 'Product Sans';
-    background-size: contain;
+    background-image: url("https://julien-gournay.github.io/Qualite-de-l-air/img/lycee.png");
     background-repeat: no-repeat;
     background-color: beige;
     position: relative;
