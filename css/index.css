@@ -36,11 +36,10 @@ img{
 
 
 .background {
-    background-image: url("https://julien-gournay.github.io/Qualite-de-l-air/img/lycee.png");
     font-family: 'Product Sans';
+    background-image: url("https://julien-gournay.github.io/Qualite-de-l-air/img/lycee.png");
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: beige;
     position: relative;
     color: white;
     text-align: center;
