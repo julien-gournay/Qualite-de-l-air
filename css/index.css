@@ -33,37 +33,56 @@ img{
     z-index: -1;
 }
 
-
-
-.background {
-    font-family: 'Product Sans';
-    background-image: url("https://julien-gournay.github.io/Qualite-de-l-air/img/lycee.png");
-    background-size: contain;
-    background-repeat: no-repeat;
+.corp{
     position: relative;
-    color: white;
-    text-align: center;
-    top: 0vh;
-    Height: 50vh;
 }
 
+.background1 {
+    font-family: 'Product Sans';
+    background-image: url("https://julien-gournay.github.io/Qualite-de-l-air/img/lycee.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.79);
+    width: 100%;
+    height: 100%; 
+    
+}
 
 .background2 {
     font-family: 'Product Sans';
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: red;
-    position: relative;
+    background-color: rgba(0, 0, 0, 0.887);
+    position: fixed;
+    bottom: 0;
     color: white;
-    text-align: center;
-    Height: 50vh;
-   
+    z-index: 1;
+    width: 100%;
+    height: 40%;
+    border-radius: 60px 60px 0 0;
 }
 
 
 .time {
     font-family: "Product Sans", serif;
-    color: black;
-    text-align: center;
-    font-size: 5vh;
+    color: rgb(255, 255, 255);
+    margin-left: 80px;
+    margin-top: 70px;
 }
+
+.heure{
+    font-weight: bold;
+    font-size: 7vh;
+}
+
+.date{
+    font-size: 4.5vh;
+}
+
+/*
+#dateheure {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight:bold;
+}*/
