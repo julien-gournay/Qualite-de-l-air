@@ -19,7 +19,7 @@ Projet final en SIN - " Station de surveillance de la qualité de l'air "
 
 ## 🔐 Développement
 
-Modification du code : (https://github.dev/julien-gournay/Qualite-de-l-air/commit/)
+Modification du code : https://github.dev/julien-gournay/Qualite-de-l-air/commit/
 
 
 ## 💚 Principe
