@@ -36,6 +36,7 @@ img{
 
 
 .background {
+    background-image: url("https://julien-gournay.github.io/Qualite-de-l-air/img/lycee.png");
     font-family: 'Product Sans';
     background-size: contain;
     background-repeat: no-repeat;
