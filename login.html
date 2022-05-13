@@ -9,6 +9,7 @@
     <link href="img/logo.png" rel="shortcut icon" type="image/x-icon"/>
     <link href="img/logo.png" rel="apple-touch-icon"/>
     <link href="http://fonts.cdnfonts.com/css/product-sans" rel="stylesheet">
+    <script type="text/javascript" src="js/login.js"></script>
     
 </head>
 
@@ -26,7 +27,7 @@
                 
             <div class="form-group">
 
-                <!---<i class="fas fa-user"></i>
+                <!--<i class="fas fa-user"></i>
                 <label for="name">Nom d'utilisateur</label>
                 <input type="text" required>
                 </div>
@@ -35,14 +36,15 @@
                 <label for="name">Mot de passe</label>
                 <input type="password" required> -->
 
-                <input type="name"
-                    placeholder="👨‍💼Nom d'utilisateur">
+                <input type="name" 
+                    placeholder="👨‍💼Nom d'utilisateur" id="username">
                 <br />
                 <input type="password"
-                    placeholder="🔑Mot de passe">
+                    placeholder="🔑Mot de passe" id="password">
             </div>
 
-            <button class="btn" type="submit" href="#">Se connecter</button>
+            <input class="btn" type="submit" name="" value="Se connecter" onclick="validate()">
+            <!-- <button class="btn" type="submit" onClick="javascript:document.location.href='user.html'">Se connecter</button> -->
 
         </div>
     </div>
@@ -53,5 +55,5 @@
 
 </body>
 
-<script type="text/javascript" src="js/login.js"></script>
+
 </html>
