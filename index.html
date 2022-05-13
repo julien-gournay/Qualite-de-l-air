@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qualité de l'air</title>
+    <title>Qualité de l'air | index</title>
     <link href="css/index.css" rel="stylesheet"> <!--lien css-->
     <link href="img/logo.png" rel="shortcut icon" type="image/x-icon"/>
     <link href="img/logo.png" rel="apple-touch-icon"/>
@@ -12,40 +12,30 @@
 </head>
 
 <body>
+    <!-- <img src="https://www.lyceecolbert-tg.org/wp-content/themes/skin/assets/img/logo-colbert-temporaire.svg"> -->
+    <img src="img/lycee.png">
+    <div class="indic">LES COURS INTERIEUR SONT ANNULES</div>
     <div classe="corp">
-        <div class="background1">
-            <!--<span id="dateheure"></span> 
-<script>
-    function pause(ms) {
-        return new Promise(resolve => setTimeout(resolve, ms));
-    }
-
-    async function afficherDate() 
-    {
-        while(true) {
-        await pause(1000);
-        var cejour = new Date();
-        var options = {weekday: "long", year: "numeric", month: "long", day: "2-digit"};
-        var date = cejour.toLocaleDateString("fr-FR", options);
-        var heure = ("0" + cejour.getHours()).slice(-2) + ":" + ("0" + cejour.getMinutes()).slice(-2) + ":" + ("0" + cejour.getSeconds()).slice(-2);
-        var dateheure = date + " " + heure;
-        var dateheure = dateheure.replace(/(^\w{1})|(\s+\w{1})/g, lettre => lettre.toUpperCase());
-        document.getElementById('dateheure').innerHTML = dateheure;
-        }
-    }
-    afficherDate();
-</script>-->
+        <!-- hhy<div class="background1"> -->
         <div class="time">
             <div class="heure" id="div_heure"></div>
             <div class="date" id="div_date"></div>
-        </div>        
+            🌙 Bonne soiree
+        </div>
     
         <div class="background2">
-            <div class="info">
-            <p>La qualitée est bonne</p>
-            <p>00 AQI</p>
-            <p>Dernière mise à jour à 00h00</p>
-            <p>Tout les cours de la journée sont maintenus</p>
+            <div class="airext">
+                <p>EXTERIEUR</p>
+                <p>O2</p>
+                <p>NO2</p>
+                <p>PM10</p>
+            </div>
+            <div class="airsalle">
+                <p>SALLE DE SPORT</p>
+                <p>O2</p>
+                <p>NO2</p>
+                <p>PM10</p>
+            </div>
         </div>
     </div>
 
