@@ -13,13 +13,13 @@ body{
 --vert: #007305
 }
 
-.header{
-    width: 100%;
-    height: 100vh;
+.body{
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
+    min-width: 100%;
+    min-height: 100%;
 }
 .background{
     width: 100%;
@@ -31,16 +31,12 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -1;
+    filter: blur(2px) brightness(0.3);
 }
-.card{
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.8);
-    min-width: 1600px; /* LONGEUR */
-    min-height: 900px; /* HAUTEUR */
-    border-radius: 25px;
-    
-}
-.card h3{
+
+
+/* TITRE PAGE */
+.titre{
     padding: 30px;
     font-size: 2rem;
     text-align: center;
@@ -48,6 +44,44 @@ body{
     font-weight: bold;
     color: var(--red);
 }
+
+
+/* BARE DE NAVIGATION */
+.nav{
+    background-color: rgba(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    width: 90%;
+    height: 50px;
+}
+.logo{
+    width: 6vh;
+    height: 4vh;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.pp{
+    border-radius: 50%;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+}
+.deco{
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+
+/*.header{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    min-width: 100%; LONGEUR
+    min-height: 100%; HAUTEUR
+    border-radius: 0px;
+}*/
+
 
 /* BOUTON DECONNEXION */
 .bdeconnexion{
@@ -62,25 +96,18 @@ body{
     border-radius: 5px;
     font-size: 20px
 }
-.card .bdeconnexion:focus{
+.bdeconnexion:focus{
     outline: none;
 }
-.card .bdeconnexion:hover{
+.bdeconnexion:hover{
     background-color: var(--red);
     color: #fff;
 }
-.card .bdeconnexion:active {
+.bdeconnexion:active {
     position: relative;
     top: 2px;
 }
 
-/* PHOTO DE PROFIL */
-.pp{
-    border-radius: 50%;
-    background-color: #fff;
-    width: 50px;
-    height: 50px;
-}
 
 /* BOUTON AFFICHAGE */
 .baffichage{
@@ -95,17 +122,18 @@ body{
     border-radius: 5px;
     font-size: 20px
 }
-.card .baffichage:focus{
+.baffichage:focus{
     outline: none;
 }
-.card .baffichage:hover{
+.baffichage:hover{
     background-color: black;
     color: #fff;
 }
-.card .baffichage:active {
+.baffichage:active {
     position: relative;
     top: 2px;
 }
+
 
 /* BOUTON UTILISATEUR */
 .buser{
@@ -120,45 +148,79 @@ body{
     border-radius: 5px;
     font-size: 20px
 }
-.card .buser:focus{
+.buser:focus{
     outline: none;
 }
-.card .buser:hover{
+.buser:hover{
     background-color: black;
     color: #fff;
 }
-.card .buser:active {
+.buser:active {
     position: relative;
     top: 2px;
 }
 
+
+/* CAPTEURS EXTERIEUR */
 .card2{
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.8);
-    max-width: 300px; /* LONGEUR */
-    min-height: 400px; /* HAUTEUR */
+    background-color: rgba(255, 255, 255, 0.5);
+    max-width: 500px; /* LONGEUR */
+    min-height: 600px; /* HAUTEUR */
     border-radius: 25px;
-    float: left;
-    width:100%;
-}
-.card3{
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.8);
-    max-width: 300px; /* LONGEUR */
-    min-height: 400px; /* HAUTEUR */
-    border-radius: 25px;
-    float: right;
-    width:100%;
+    width:33%;
 }
 .card2-2{
     color: #fff;
     background-color: rgba(0, 0, 0, 1);
-    max-width: 300px; /* LONGEUR */
+    max-width: 500px; /* LONGEUR */
     min-height: 100px; /* HAUTEUR */
     border-radius: 25px 25px 0px 0px;
-    float: right;
-    width:100%;
     text-align: center;
     font-size: 25px;
-    display: block;
+    width:100%;
 }
+
+
+/* CAPTEURS INTERIEUR */
+.card3{
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.5);
+    max-width: 500px; /* LONGEUR */
+    min-height: 600px; /* HAUTEUR */
+    border-radius: 25px;
+    width:33%;
+}
+
+
+/* INFOS HEURE */
+.card4{
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.5);
+    max-width: 500px; /* LONGEUR */
+    min-height: 200px; /* HAUTEUR */
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+.time {
+    font-family: "Product Sans", serif;
+    color: rgb(0, 0, 0);
+}
+.heure {
+    font-weight: bold;
+    font-size: 7vh;
+}
+.date {
+    font-size: 4.5vh;
+}
+
+
+/* REDIRECTION */
+.card5{
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.5);
+    max-width: 500px; /* LONGEUR */
+    min-height: 300px; /* HAUTEUR */
+    border-radius: 25px;
+}
+
