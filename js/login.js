@@ -41,8 +41,8 @@ setInterval(function(){
 function validate(){
     var username=document.getElementById("username").value;
     var password=document.getElementById("password").value;
-    if(username=="samuel.p"&& password=="21/09/04" || username=="adrien.r"&& password=="23/07/04" || username=="julien.g"&& password=="17/01/04"){
-        alert("La page admin est actuellement en maintenance. Veillez réesayer ulterieurment.");
+    if(username=="samuel.p"&& password=="210904" || username=="adrien.r"&& password=="230704" || username=="julien.g"&& password=="170104"){
+        document.location.href="admin.html";
         return false;
     }
     else{
