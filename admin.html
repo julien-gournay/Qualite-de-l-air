@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qualité de l'air | ADMIN</title>
+    <link href="css/admin.css" rel="stylesheet"> <!--lien css-->
+    <link href="img/logo.png" rel="shortcut icon" type="image/x-icon"/>
+    <link href="img/logo.png" rel="apple-touch-icon"/>
+    <link href="http://fonts.cdnfonts.com/css/product-sans" rel="stylesheet">
+    <script type="text/javascript" src="js/admin.js"></script>
+    
+</head>
+
+<body>
+    <img class="background" src="img/lycee.png">
+    <h3 class="titre">Espace administrateur</h3>
+    <div class="nav">
+        <img class="logo" src="img/logo.png">
+        <div class="profil">
+            <img class="pp" src="img/avatar.png">
+            <a>Bonjour Julien</a>
+        </div>
+        <img class="deco" onClick="javascript:document.location.href='login.html'" src="img/icon/power.png">
+        <input class="bdeconnexion" type="button" value="Deconnexion" onClick="javascript:document.location.href='login.html'"/>
+        <input class="baffichage" type="button" value="Affichage" onClick="javascript:document.location.href='index.html'"/>
+        <input class="buser" type="button" value="Utilisateur" onClick="javascript:document.location.href='user.html'"/>
+    </div> 
+            
+    <div class="card2">
+        <div class="card2-2">
+            <a class="a2"><br>Capteur exterieur</a>
+        </div>
+    </div>
+
+    <div class="card3">
+        <div class="card2-2">
+            <a><br>Capteur salle de sport</a>
+        </div>
+    </div>
+
+    <div class="card4">
+        <div class="time">
+            <div class="heure" id="div_heure"></div>
+            <div class="date" id="div_date"></div>
+        </div>
+    </div>
+
+    <div class="card5">
+    </div>
+
+
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/product-sans');
+    </style>
+</body>
+</html>
