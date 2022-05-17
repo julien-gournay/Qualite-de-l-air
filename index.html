@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qualité de l'air | index</title>
+    <title>Qualité de l'air | login</title>
     <link href="css/index.css" rel="stylesheet">
     <!--lien css-->
     <link href="img/logo.png" rel="shortcut icon" type="image/x-icon" />
@@ -20,52 +20,61 @@
     </center>
     <img class="logo" src="img/logo.png">
     <img class="bg" src="img/lycee.png ">
-    <div class="header">
-        <!--<div class="indic">
-            <a class="tnotif">LES COURS INTERIEUR SONT ANNULES</a>
-        </div>-->
-    </div>
+    <div class="header"></div>
     <div classe="corp">
         <div class="time">
             <div class="heure" id="div_heure"></div>
             <div class="date" id="div_date"></div>
             <img class="hinfo" src="img/icon/bonne_journee.png">
         </div>
-
         <div class="background2">
             <div class="airext">
-                <p>EXTERIEUR</p>
-                <table>
+                <table width="460">
                     <tr>
-                        <td>
-                            <p>O2</p>
+                        <td rowspan="4">
+                            <img class="emoji" src="img/icon/vert.png">
                         </td>
-                        <td class="donné1">
-                            <p>110</p>
+                        <td class="donnétitle" colspan="2">
+                            <p>EXTERIEUR</p>
                         </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>NO2</p>
-                        </td>
-                        <td class="donné1">
-                            <p>110</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>PM10</p>
-                        </td>
-                        <td class="donné1">
-                            <p>110</p>
-                        </td>
+                        <tr>
+                            <td>
+                                <p>O2</p>
+                            </td>
+                            <td class="donné1">
+                                <p>110</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>NO2</p>
+                            </td>
+                            <td class="donné1">
+                                <p>110</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>PM10</p>
+                            </td>
+                            <td class="donné1">
+                                <p>110</p>
+                            </td>
+                        </tr>
                     </tr>
                 </table>
             </div>
 
             <div class="airsalle">
-                <p>SALLE DE SPORT</p>
-                <table class="tsp">
+                <table width="460">
+                    <tr>
+                        <td class="donnétitle" colspan="2">
+                            <p>SALLE DE SPORT</p>
+                        </td>
+                        <td rowspan="4">
+                            <img class="emoji" src="img/icon/rouge.png">
+                        </td>
+                    </tr>
                     <tr>
                         <td class="donné2">
                             <p>110</p>
@@ -92,10 +101,8 @@
                     </tr>
                 </table>
             </div>
-
         </div>
     </div>
-
 </body>
 
 <script type="text/javascript" src="js/main.js"></script>
