@@ -20,9 +20,9 @@ Projet final en SIN - " Station de surveillance de la qualité de l'air "
 
 ## 🔐 Développement
 
-Modification du code : https://github.dev/julien-gournay/Qualite-de-l-air/commit/
-Maquette : https://www.figma.com/file/VxXSqZXTNwkWg2YLGAgDE3/Projet-SIN---Qualit%C3%A9-de-l'air?node-id=0%3A1
-Google doc : https://docs.google.com/document/d/1d8NNBDXp4Ay8jZC2wmCJsBEozm5WKV6EW2Xh6tlxz2E/edit?usp=sharing
+#### Modification du code : https://github.dev/julien-gournay/Qualite-de-l-air/commit/
+#### Maquette : https://www.figma.com/file/VxXSqZXTNwkWg2YLGAgDE3/Projet-SIN---Qualit%C3%A9-de-l'air?node-id=0%3A1
+#### Google doc : https://docs.google.com/document/d/1d8NNBDXp4Ay8jZC2wmCJsBEozm5WKV6EW2Xh6tlxz2E/edit?usp=sharing 
 
 ## 💚 Principe
 
