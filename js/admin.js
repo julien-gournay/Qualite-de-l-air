@@ -15,22 +15,19 @@ window.onload=function() {
 }
 
 // AFFICHAGE DATE
-var currentdate = new Date();
-date = new Date;
-annee = date.getFullYear();
-moi = date.getMonth();
-mois = new Array('Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Aout', 'Septembre', 'Octobre', 'Novembre', 'Décembre');
-j = date.getDate();
-jour = date.getDay();
-jours = new Array('Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi');
-date = jours[jour]+' '+j+' '+mois[moi]+' '+annee+'';
-var time = currentdate.getHours()+" h "+currentdate.getMinutes()+" min "+currentdate.getSeconds()+" sec";
-document.getElementById('div_date').innerHTML = date;
-document.getElementById('heure').innerHTML = time;
-function ActualiseHeure(){
-    var time = currentdate.getHours()+" h "+currentdate.getMinutes()+" min "+currentdate.getSeconds()+" sec";
-    document.getElementById('heure').innerHTML = time;
+function pause(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
 }
-setInterval(function(){
-    var currentdate = new Date();
-        document.getElementById('heure').innerHTML = (currentdate.getHours()+" h "+currentdate.getMinutes()+" min "+currentdate.getSeconds()+" sec"); }, 1000);
+async function afficherDate() {
+    while (true) {
+        await pause(1000);
+        var cejour = new Date();
+        var options = { weekday: "long", year: "numeric", month: "long", day: "2-digit" };
+        var date = cejour.toLocaleDateString("fr-FR", options);
+        var heure = ("0" + cejour.getHours()).slice(-2) + ":" + ("0" + cejour.getMinutes()).slice(-2) + ":" + ("0" + cejour.getSeconds()).slice(-2);
+        var dateheure = date + " ";
+        var dateheure = dateheure.replace(/(^\w{1})|(\s+\w{1})/g, lettre => lettre.toUpperCase());
+        document.getElementById('div_date').innerHTML = dateheure;
+    }
+}
+afficherDate();

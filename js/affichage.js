@@ -1,3 +1,4 @@
+// AFFICHAGE HEURE
 window.onload = function() {
     horloge('div_heure');
 };
@@ -16,7 +17,7 @@ function horloge(el) {
     setInterval(actualiser, 1000);
 }
 
-
+// AFFICHAGE DATE
 function pause(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -33,6 +34,8 @@ async function afficherDate() {
     }
 }
 afficherDate();
+
+
 
 function hinfo() {
     var journee = ;
