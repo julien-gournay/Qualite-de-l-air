@@ -1,226 +1,225 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 body{
-    font-family: 'Product Sans', sans-serif;
+    font-family: 'Product Sans', sans-serif; /* POLICE D'ECRITURE */
+    background: gray;
 }
 
 :root{
---red: #BF1C20;
---jaune: #FF8A00;
---vert: #007305
+--r: #BF1C20; /* COULEUR ROUGE */
+--j: #FF8A00; /* COULEUR ORANGE */
+--v: #007305; /* COULEUR VERT */
+--n: #000000; /* COULEUR NOIR */
 }
 
 .body{
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 100%;
-    min-height: 100%;
+    overflow: hidden; /* DEPASSEMENT CACHEE */
+    display: flex; /* DISPOSITION */
+    align-items: center; /* LIGNE CENTREE */
+    justify-content: center; /* ELEMENT CENTRE */
+    min-width: 100%; /* LONGEUR MAX */
+    min-height: 100%; /* HAUTEUR MIN*/
 }
 .background{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-    filter: blur(2px) brightness(0.3);
+    width: 100%; /* LONGEUR */
+    height: 100%; /* HAUTEUR */
+    object-fit: cover; /* ADAPTATION FULL ELEMENT */
+    object-position: center; /* CENTRER BG */
+    position: absolute; /* POSITION */
+    top: 50%; /* HAUT */
+    left: 50%; /* GAUCHE */
+    transform: translate(-50%, -50%); /* DECALAGE */
+    z-index: -1; /* POSITION COTE */
+    filter: blur(2px) brightness(0.3); /* EFFET FLOU ET OPACITEE */
 }
 
 
-/* TITRE PAGE */
+/* --- TITRE PAGE --- */
 .titre{
-    padding: 30px;
-    font-size: 2rem;
-    text-align: center;
-    margin-bottom: 30px;
-    font-weight: bold;
-    color: var(--red);
+    padding: 30px; /* MARGE AU TOUR DU TEXTE */
+    font-size: 2rem; /* TAILLE TEXTE */
+    text-align: center; /* TEXTE CENTRE */
+    margin-bottom: 30px; /* MARGE EN BAS */
+    font-weight: bold; /* TEXTE EN GRAS */
+    color: var(--r); /* COULEUR CHANGEANT */
 }
 
 
-/* BARE DE NAVIGATION */
+/* --- BARE DE NAVIGATION --- */
 .nav{
-    background-color: rgba(0, 0, 0);
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 25px;
-    width: 90%;
-    height: 50px;
+    background-color: var(--n); /* COULEUR FOND CHANGEANT */
+    margin-left: auto; /* MARGE GAUCHE */
+    margin-right: auto; /* MARGE DROITE */
+    border-radius: 25px; /* BORDURE ARRONDI */
+    width: 90%; /* LONGEUR */
+    height: 50px; /* HAUTEUR */
 }
 .logo{
-    width: 6vh;
-    height: 4vh;
-    margin-left: 20px;
-    margin-top: 5px;
+    width: 6vh; /* LONGEUR */
+    height: 4vh; /* HAUTEUR */
+    margin-left: 20px; /* MARGE GAUCHE */
+    margin-top: 5px; /* MARGE HAUT */
 }
 .pp{
-    border-radius: 50%;
-    background-color: #fff;
-    width: 50px;
-    height: 50px;
+    border-radius: 50%; /* BORDURE ARRONDI */
+    background-color: #fff; /* COULEUR FOND */
+    width: 50px; /* LONGEUR */
+    height: 50px; /* HAUTEUR */
 }
 .deco{
-    width: 50px;
-    height: 50px;
-    float: right;
+    width: 50px; /* LONGEUR */
+    height: 50px; /* HAUTEUR */
+    float: right; /* POSITION A DROITE */
 }
 
 
-/*.header{
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.8);
-    min-width: 100%; LONGEUR
-    min-height: 100%; HAUTEUR
-    border-radius: 0px;
-}*/
-
-
-/* BOUTON DECONNEXION */
+/* --- BOUTON DECONNEXION --- */
 .bdeconnexion{
-    display: block;
-    margin: 40px auto;
-    text-align: center;
-    background-color: #f9f9f9;
-    color: #333;
-    padding: 10px 30px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 20px
+    display: block; /* DISPOSITION */
+    margin: 40px auto; /* MARGE */
+    text-align: center; /* TEXTE CENTRE */
+    background-color: #f9f9f9; /* COULEUR FOND */
+    color: #333; /* COULEUR TEXTE */
+    padding: 10px 30px; /* CONTOUR ELEMENT */
+    border: none; /* BORDURE */
+    cursor: pointer; /* CURSOR */
+    border-radius: 5px; /* BORDURE ARRONDI */
+    font-size: 20px; /* TAILLE TEXTE */
 }
 .bdeconnexion:focus{
     outline: none;
 }
 .bdeconnexion:hover{
-    background-color: var(--red);
-    color: #fff;
+    background-color: var(--r); /* COULEUR FOND (PASSAGE) */ 
+    color: #fff; /* COULEUR TEXTE (PASSAGE) */ 
 }
 .bdeconnexion:active {
-    position: relative;
-    top: 2px;
+    position: relative; /* POSITION */
+    top: 2px; /* HAUT */
 }
 
 
-/* BOUTON AFFICHAGE */
+/* --- BOUTON AFFICHAGE --- */
 .baffichage{
-    display: block;
-    margin: 40px auto;
-    text-align: center;
-    background-color: #f9f9f9;
-    color: #333;
-    padding: 10px 30px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 20px
+    display: block; /* DISPOSITION */
+    margin: 40px auto; /* MARGE */
+    text-align: center; /* TEXTE CENTRE */
+    background-color: #f9f9f9; /* COULEUR FOND */
+    color: #333; /* COULEUR TEXTE */
+    padding: 10px 30px; /* CONTOUR ELEMENT */
+    border: none; /* BORDURE */
+    cursor: pointer; /* CURSOR */
+    border-radius: 5px; /* BORDURE ARRONDI */
+    font-size: 20px; /* TAILLE TEXTE */
 }
 .baffichage:focus{
     outline: none;
 }
 .baffichage:hover{
-    background-color: black;
-    color: #fff;
+    background-color: var(--n); /* COULEUR FOND (PASSAGE) */ 
+    color: #fff; /* COULEUR TEXTE (PASSAGE) */ 
 }
 .baffichage:active {
-    position: relative;
-    top: 2px;
+    position: relative; /* POSITION */
+    top: 2px; /* HAUT */
 }
 
 
-/* BOUTON UTILISATEUR */
+/* --- BOUTON UTILISATEUR --- */
 .buser{
-    display: block;
-    margin: 40px auto;
-    text-align: center;
-    background-color: #f9f9f9;
-    color: #333;
-    padding: 10px 30px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 20px
+    display: block; /* DISPOSITION */
+    margin: 40px auto; /* MARGE */
+    text-align: center; /* TEXTE CENTRE */
+    background-color: #f9f9f9; /* COULEUR FOND */
+    color: #333; /* COULEUR TEXTE */
+    padding: 10px 30px; /* CONTOUR ELEMENT */
+    border: none; /* BORDURE */
+    cursor: pointer; /* CURSOR */
+    border-radius: 5px; /* BORDURE ARRONDI */
+    font-size: 20px; /* TAILLE TEXTE */
 }
 .buser:focus{
     outline: none;
 }
 .buser:hover{
-    background-color: black;
-    color: #fff;
+    background-color: var(--n); /* COULEUR FOND (PASSAGE) */ 
+    color: #fff; /* COULEUR TEXTE (PASSAGE) */ 
 }
 .buser:active {
-    position: relative;
-    top: 2px;
+    position: relative; /* POSITION */
+    top: 2px; /* HAUT */
 }
 
 
-/* CAPTEURS EXTERIEUR */
+/* --- CAPTEURS EXTERIEUR --- */
+.card1{
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.5); /* COULEUR FOND AVEC TRANSPARENCE */
+    max-width: 500px; /* LONGEUR MAX */
+    min-height: 600px; /* HAUTEUR MIN*/
+    border-radius: 25px; /* BORDURE ARRONDI */
+    width:33%; /* LONGEUR */
+}
+.card1-2{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 1); /* COULEUR FOND AVEC TRANSPARENCE */
+    max-width: 500px; /* LONGEUR MAX*/
+    min-height: 100px; /* HAUTEUR MIN*/
+    border-radius: 25px 25px 0px 0px; /* ARRONDI BORD */
+    text-align: center; /* CENTRER TEXTE */
+    font-size: 25px; /* TAILLE TEXTE */
+    width:100%; /* LONGEUR */
+}
+
+
+/* --- CAPTEURS INTERIEUR --- */
 .card2{
-    color: #fff;
-    background-color: rgba(255, 255, 255, 0.5);
-    max-width: 500px; /* LONGEUR */
-    min-height: 600px; /* HAUTEUR */
-    border-radius: 25px;
-    width:33%;
-}
-.card2-2{
-    color: #fff;
-    background-color: rgba(0, 0, 0, 1);
-    max-width: 500px; /* LONGEUR */
-    min-height: 100px; /* HAUTEUR */
-    border-radius: 25px 25px 0px 0px;
-    text-align: center;
-    font-size: 25px;
-    width:100%;
+    color: #fff; /* COULEUR FOND */
+    background-color: rgba(255, 255, 255, 0.5); /* COULEUR FOND AVEC TRANSPARENCE */
+    max-width: 500px; /* LONGEUR MAX*/
+    min-height: 600px; /* HAUTEUR MIN*/
+    border-radius: 25px; /* BORDURE ARRONDI */
+    width:33%; /* LONGEUR */
 }
 
 
-/* CAPTEURS INTERIEUR */
+/* --- INFOS HEURE --- */
 .card3{
-    color: #fff;
-    background-color: rgba(255, 255, 255, 0.5);
-    max-width: 500px; /* LONGEUR */
-    min-height: 600px; /* HAUTEUR */
-    border-radius: 25px;
-    width:33%;
-}
-
-
-/* INFOS HEURE */
-.card4{
-    color: #fff;
-    background-color: rgba(255, 255, 255, 0.5);
-    max-width: 500px; /* LONGEUR */
-    min-height: 200px; /* HAUTEUR */
-    border-radius: 25px;
-    margin-bottom: 15px;
+    color: #fff; /* COULEUR TEXTE */
+    background-color: rgba(255, 255, 255, 0.5); /* COULEUR FOND AVEC TRANSPARENCE */
+    max-width: 500px; /* LONGEUR MAX*/
+    min-height: 200px; /* HAUTEUR MIN*/
+    border-radius: 25px; /* BORDURE ARRONDI */
+    margin-bottom: 15px; /* MARGE EN BAS */
 }
 .time {
-    font-family: "Product Sans", serif;
-    color: rgb(0, 0, 0);
+    color: var(--n); /* COULEUR TEXTE */
 }
 .heure {
-    font-weight: bold;
-    font-size: 7vh;
+    font-weight: bold; /* TEXTE EN GRAS */
+    font-size: 7vh; /* TAILLE TEXTE */
 }
 .date {
-    font-size: 4.5vh;
+    font-size: 4.5vh; /* TAILLE TEXTE */
 }
 
 
-/* REDIRECTION */
-.card5{
-    color: #fff;
-    background-color: rgba(255, 255, 255, 0.5);
-    max-width: 500px; /* LONGEUR */
-    min-height: 300px; /* HAUTEUR */
-    border-radius: 25px;
+/* --- REDIRECTION --- */
+.card4{
+    color: #fff; /* COULEUR TEXTE */
+    background-color: rgba(255, 255, 255, 0.5); /* COULEUR FOND AVEC TRANSPARENCE */
+    max-width: 500px; /* LONGEUR MAX*/
+    min-height: 200px; /* HAUTEUR MIN*/
+    border-radius: 25px; /* BORDURE ARRONDI */
+    margin-bottom: 15px; /* MARGE EN BAS */
 }
 
+.cercle1{
+    width: 80px; /* HAUTEUR */
+    height: 80px; /* HAUTEUR */
+    border-radius: 50%; /* BORDURE RONDE */
+    background: #1fe0; /* COULEUR FOND TRANSPARENT */
+    margin: 10px; /* MARGE */
+    border: 3px solid #BF1C20; /* LARGEUR, TYPE, COULEUR BORDURE */
+
+    text-align: center; /* CENTRER TEXTE */
+    position: absolute; /* POSITION */
+}
