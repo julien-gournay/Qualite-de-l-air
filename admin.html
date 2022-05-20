@@ -14,40 +14,70 @@
 </head>
 
 <body>
-    <img class="background" src="img/lycee.png">
-    <h3 class="titre">Espace administrateur</h3>
-    <div class="nav">
-        <img class="logo" src="img/logo.png">
+    <img class="background" src="img/lycee.png"> <!--ARRIERE PLAN-->
+    <h3 class="titre">Espace administrateur</h3> <!--TITRE PAGE-->
+    <div class="nav"> <!--BARRE DE NAVIGATION-->
+        <img class="logo" src="img/logo.png"> <!--LOGO LYCEE-->
         <div class="profil">
-            <img class="pp" src="img/avatar.png">
-            <a>Bonjour Julien</a>
+            <img class="pp" src="img/avatar.png"> <!--LOGO ADMIN-->
+            <a>Bonjour Julien</a> <!--NOM ADMIN-->
         </div>
-        <img class="deco" onClick="javascript:document.location.href='login.html'" src="img/icon/power.png">
-        <input class="bdeconnexion" type="button" value="Deconnexion" onClick="javascript:document.location.href='index.html'"/>
-        <input class="baffichage" type="button" value="Affichage" onClick="javascript:document.location.href='affichage.html'"/>
-        <input class="buser" type="button" value="Utilisateur" onClick="javascript:document.location.href='user.html'"/>
+        <img class="deco" onClick="javascript:document.location.href='login.html'" src="img/icon/power.png"> <!--BOUTON DECONNEXION-->
     </div> 
             
-    <div class="card2">
-        <div class="card2-2">
-            <a class="a2"><br>Capteur exterieur</a>
+    <div class="card1"> <!--FENETRE CAPTEUR 1-->
+        <div class="card1-2"> <!--ENTETE FENETRE-->
+            <a class="acard"><br>Capteur exterieur</a> <!--TITRE FENETRE-->
+        </div>
+        <div class="cercle1"> <!--CERCLE MESURE O2-->
+            <p>O2</p> <!--NOM DE PARTICULE-->
+            <p>58 PPM</p> <!--VALEUR DE POLLUTION-->
+            <p>2</p> <!--DEGRE DE POLLUTION-->
+        </div>
+        <div class="cercle1"> <!--CERCLE MESURE NO2-->
+            <p>NO2</p> <!--NOM DE PARTICULE-->
+            <p>143 PPM</p> <!--VALEUR DE POLLUTION-->
+            <p>4</p> <!--DEGRE DE POLLUTION-->
+        </div>
+        <div class="cercle1"> <!--CERCLE MESURE PM10-->
+            <p>PM10</p> <!--NOM DE PARTICULE-->
+            <p>14 PPM</p> <!--VALEUR DE POLLUTION-->
+            <p>1</p> <!--DEGRE DE POLLUTION-->
         </div>
     </div>
 
-    <div class="card3">
-        <div class="card2-2">
-            <a><br>Capteur salle de sport</a>
+    <div class="card2"> <!--FENETRE CAPTEUR 2-->
+        <div class="card1-2"> <!--ENTETE FENETRE-->
+            <a class="acard"><br>Capteur salle de sport</a> <!--TITRE FENETRE-->
+        </div>
+        <div class="cercle1"> <!--CERCLE MESURE O2-->
+            <p>O2</p> <!--NOM DE PARTICULE-->
+            <p>201 PPM</p> <!--VALEUR DE POLLUTION-->
+            <p>2</p> <!--DEGRE DE POLLUTION-->
+        </div>
+        <div class="cercle1"> <!--CERCLE MESURE NO2-->
+            <p>NO2</p> <!--NOM DE PARTICULE-->
+            <p>287 PPM</p> <!--VALEUR DE POLLUTION-->
+            <p>5</p> <!--DEGRE DE POLLUTION-->
+        </div>
+        <div class="cercle1"> <!--CERCLE MESURE PM10-->
+            <p>PM10</p> <!--NOM DE PARTICULE-->
+            <p>41 PPM</p> <!--VALEUR DE POLLUTION-->
+            <p>3</p> <!--DEGRE DE POLLUTION-->
         </div>
     </div>
 
-    <div class="card4">
+    <div class="card3"> <!--FENETRE INFORMATIONS-->
         <div class="time">
-            <div class="heure" id="div_heure"></div>
-            <div class="date" id="div_date"></div>
+            <div class="heure" id="div_heure"></div> <!--AFFICHAGE HEURE-->
+            <div class="date" id="div_date"></div> <!--AFFICHAGE DATE-->
         </div>
     </div>
 
-    <div class="card5">
+    <div class="card4"> <!--FENETRE REDIRECTIONS-->
+        <input class="bdeconnexion" type="button" value="Deconnexion" onClick="javascript:document.location.href='index.html'"/> <!--BOUTON DECONNEXION-->
+        <input class="baffichage" type="button" value="Affichage" onClick="javascript:document.location.href='affichage.html'"/> <!--BOUTON AFFICHAGE-->
+        <input class="buser" type="button" value="Utilisateur" onClick="javascript:document.location.href='user.html'"/> <!--BOUTON USER-->
     </div>
 
 
