@@ -21,7 +21,7 @@ Projet final en SIN - " Station de surveillance de la qualité de l'air "
 
 ### [Login](https://julien-gournay.github.io/Qualite-de-l-air/index)
 ### [Affichage](https://julien-gournay.github.io/Qualite-de-l-air/affichage)
-### [Admin](https://julien-gournay.github.io/Qualite-de-l-air/affichage)
+### [Admin](https://julien-gournay.github.io/Qualite-de-l-air/admin)
 
 
 ## 🔐 Développement
