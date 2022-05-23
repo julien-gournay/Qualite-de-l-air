@@ -1,5 +1,5 @@
 
-# 🪟 Projet SIN - Qualité de l'air
+# ☁️ Projet SIN - Qualité de l'air
 
 Projet final en SIN - " Station de surveillance de la qualité de l'air "
 
