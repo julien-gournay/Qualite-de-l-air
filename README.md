@@ -7,7 +7,7 @@ Projet final en SIN - " Station de surveillance de la qualité de l'air "
 
 #### Version du site : ` Béta fermée `
 #### Avancement : ` En cours `
-#### Déploiement : ` 192.168.??.?? `
+#### Déploiement : ` 192.168.51.242 `
 
 
 ## 🧩 Auteurs
@@ -15,6 +15,11 @@ Projet final en SIN - " Station de surveillance de la qualité de l'air "
 - [@julien-gournay](https://github.com/julien-gournay)
 - [@adziwo](https://github.com/Adziwo)
 - [@samuel-petit](https://github.com/albatar)
+
+
+## 💻 Accéder au site
+
+#### Site hébergé : http://192.168.51.242
 
 
 ## 👀 Visualisation pages
