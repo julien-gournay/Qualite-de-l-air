@@ -87,13 +87,13 @@ body {
 }
 
 .logo {
-    width: 6vh;
+    width: 90px;
     /* LONGEUR */
-    height: 4vh;
+    height: 70%;
     /* HAUTEUR */
     margin-left: 20px;
     /* MARGE GAUCHE */
-    margin-top: 5px;
+    margin-top: 10px;
     /* MARGE HAUT */
 }
 
@@ -268,10 +268,9 @@ body {
     /* BORDURE ARRONDI */
     width: 33%;
     /* LONGEUR */
-    justify-content: space-around;
 }
 
-.card1-2 {
+.card1-1 {
     color: #fff;
     background-color: rgba(0, 0, 0, 1);
     /* COULEUR FOND AVEC TRANSPARENCE */
@@ -284,12 +283,19 @@ body {
     text-align: center;
     /* CENTRER TEXTE */
     font-weight: bold;
+    /* STYLE TEXTE */
     font-size: 25px;
     /* TAILLE TEXTE */
     width: 100%;
     /* LONGEUR */
 }
 
+.card1-2 {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 /* --- CAPTEURS INTERIEUR --- */
 
@@ -378,9 +384,9 @@ body {
 /* --- DONNEE DANS LE CERCLE --- */
 
 .cercle1 {
-    width: 120px;
+    width: 110px;
     /* HAUTEUR */
-    height: 120px;
+    height: 110px;
     /* HAUTEUR */
     border-radius: 50%;
     /* BORDURE RONDE */
@@ -392,14 +398,14 @@ body {
     /* LARGEUR, TYPE, COULEUR BORDURE */
     text-align: center;
     /* CENTRER TEXTE */
-    position: absolute;
+    /* position: absolute; */
     /* POSITION */
 }
 
 .cercle2 {
-    width: 120px;
+    width: 110px;
     /* HAUTEUR */
-    height: 120px;
+    height: 110px;
     /* HAUTEUR */
     border-radius: 50%;
     /* BORDURE RONDE */
@@ -411,14 +417,14 @@ body {
     /* LARGEUR, TYPE, COULEUR BORDURE */
     text-align: center;
     /* CENTRER TEXTE */
-    position: absolute;
+    /* position: absolute; */
     /* POSITION */
 }
 
 .cercle3 {
-    width: 120px;
+    width: 110px;
     /* HAUTEUR */
-    height: 120px;
+    height: 110px;
     /* HAUTEUR */
     border-radius: 50%;
     /* BORDURE RONDE */
@@ -430,6 +436,6 @@ body {
     /* LARGEUR, TYPE, COULEUR BORDURE */
     text-align: center;
     /* CENTRER TEXTE */
-    position: absolute;
+    /* position: absolute; */
     /* POSITION */
 }
