@@ -46,7 +46,42 @@ function validate(){
         return false;
     }
     else{
-        alert("Le nom d'utilisateur ou le mots de passe est incorect. \nMots de passe oublier ? Contacter l'etablissement.");
-        return false
+        //alert("Le nom d'utilisateur ou le mots de passe est incorect. \nMots de passe oublier ? Contacter l'etablissement.");
+        if(username==0&&password==0){
+            var div = document.getElementById('incorrect');
+            div.innerHTML = 'Veuillez saisir les champs';
+            return false
+        }
+        if(username==0){
+            var div = document.getElementById('incorrect');
+            div.innerHTML = 'Veuillez saisir le nom utilsateur';
+            return false
+        }
+        if(password==0){
+            var div = document.getElementById('incorrect');
+            div.innerHTML = 'Veuillez saisir le mots de passe';
+            return false
+        }
+        else{
+            var div = document.getElementById('incorrect');
+            div.innerHTML = 'Nom utilisateur ou Mot de passe incorrect';
+            return false
+        }
     }
+}
+
+
+
+function verif() 
+{
+	var inputList = document.forms['form-group'].elements;
+	var alertTxt = "incorrect";
+	for (unInput in inputList)
+	{
+		if(unInput.type=="text" && unInput.value.length==0)
+		{
+			alertTxt += "Le champ " + unInput.name + " n'a pas été rempli \n";
+		}
+	}
+	alert(alertTxt)
 }
