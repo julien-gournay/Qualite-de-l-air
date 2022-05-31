@@ -65,6 +65,8 @@ body {
     /* TEXTE EN GRAS */
     color: var(--r);
     /* COULEUR CHANGEANT */
+    margin-top: 1.2%;
+    margin-left: 8%;
 }
 
 
@@ -87,14 +89,24 @@ body {
 }
 
 .logo {
+    position: absolute;
     width: 90px;
     /* LONGEUR */
-    height: 70%;
+    height: 50px;
     /* HAUTEUR */
     margin-left: 20px;
     /* MARGE GAUCHE */
     margin-top: 10px;
     /* MARGE HAUT */
+}
+
+.profil {
+    position: absolute;
+    margin-top: 0.6%;
+    color: var(--b);
+    font-weight: bold;
+    display: block;
+    right: 10%;
 }
 
 .pp {
@@ -115,6 +127,17 @@ body {
     /* HAUTEUR */
     float: right;
     /* POSITION A DROITE */
+    margin-top: 0.6%;
+    margin-right: 2%;
+}
+
+.barre {
+    position: absolute;
+    border-left: solid 4px #fff;
+    height: 40px;
+    display: inline-block;
+    right: 8.65%;
+    top: 5.7%;
 }
 
 
@@ -123,7 +146,7 @@ body {
 .bdeconnexion {
     display: block;
     /* DISPOSITION */
-    margin: 40px auto;
+    margin: 30px auto;
     /* MARGE */
     text-align: center;
     /* TEXTE CENTRE */
@@ -131,16 +154,17 @@ body {
     /* COULEUR FOND */
     color: #333;
     /* COULEUR TEXTE */
-    padding: 10px 30px;
+    padding: 10px;
     /* CONTOUR ELEMENT */
     border: none;
     /* BORDURE */
     cursor: pointer;
     /* CURSOR */
-    border-radius: 5px;
+    border-radius: 10px;
     /* BORDURE ARRONDI */
     font-size: 20px;
     /* TAILLE TEXTE */
+    width: 30%;
 }
 
 .bdeconnexion:focus {
@@ -167,7 +191,7 @@ body {
 .baffichage {
     display: block;
     /* DISPOSITION */
-    margin: 40px auto;
+    margin: 30px auto;
     /* MARGE */
     text-align: center;
     /* TEXTE CENTRE */
@@ -175,16 +199,17 @@ body {
     /* COULEUR FOND */
     color: #333;
     /* COULEUR TEXTE */
-    padding: 10px 30px;
+    padding: 10px;
     /* CONTOUR ELEMENT */
     border: none;
     /* BORDURE */
     cursor: pointer;
     /* CURSOR */
-    border-radius: 5px;
+    border-radius: 10px;
     /* BORDURE ARRONDI */
     font-size: 20px;
     /* TAILLE TEXTE */
+    width: 30%;
 }
 
 .baffichage:focus {
@@ -211,7 +236,7 @@ body {
 .buser {
     display: block;
     /* DISPOSITION */
-    margin: 40px auto;
+    margin: 30px auto;
     /* MARGE */
     text-align: center;
     /* TEXTE CENTRE */
@@ -219,16 +244,17 @@ body {
     /* COULEUR FOND */
     color: #333;
     /* COULEUR TEXTE */
-    padding: 10px 30px;
+    padding: 10px;
     /* CONTOUR ELEMENT */
     border: none;
     /* BORDURE */
     cursor: pointer;
     /* CURSOR */
-    border-radius: 5px;
+    border-radius: 10px;
     /* BORDURE ARRONDI */
     font-size: 20px;
     /* TAILLE TEXTE */
+    width: 30%;
 }
 
 .buser:focus {
@@ -260,7 +286,7 @@ body {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.699);
     /* COULEUR FOND AVEC TRANSPARENCE */
-    max-width: 30%;
+    max-width: 32.5%;
     /* LONGEUR MAX */
     min-height: 80%;
     /* HAUTEUR MIN*/
@@ -295,20 +321,22 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
+
 
 /* --- CAPTEURS INTERIEUR --- */
 
 .card2 {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 53.5%;
     transform: translate(-50%, -45%);
     color: #fff;
     /* COULEUR FOND */
     background-color: rgba(0, 0, 0, 0.699);
     /* COULEUR FOND AVEC TRANSPARENCE */
-    max-width: 30%;
+    max-width: 32.5%;
     /* LONGEUR MAX*/
     min-height: 80%;
     /* HAUTEUR MIN*/
@@ -323,16 +351,16 @@ body {
 
 .card3 {
     position: absolute;
-    top: 33%;
+    top: 30.5%;
     right: 2.5%;
     transform: translate(0, -50%);
     color: #fff;
     /* COULEUR TEXTE */
     background-color: rgba(0, 0, 0, 0.699);
     /* COULEUR FOND AVEC TRANSPARENCE */
-    width: 30%;
+    width: 25%;
     /* LONGEUR MAX*/
-    height: 38%;
+    height: 33%;
     /* HAUTEUR MIN*/
     border-radius: 25px;
     /* BORDURE ARRONDI */
@@ -363,21 +391,19 @@ body {
 
 .card4 {
     position: absolute;
-    bottom: 3%;
+    bottom: 2.5%;
     right: 2.5%;
     transform: translate(0, -8%);
     color: #fff;
     /* COULEUR TEXTE */
     background-color: rgba(0, 0, 0, 0.699);
     /* COULEUR FOND AVEC TRANSPARENCE */
-    width: 30%;
+    width: 25%;
     /* LONGEUR MAX*/
-    height: 38%;
+    height: 45%;
     /* HAUTEUR MIN*/
     border-radius: 25px;
     /* BORDURE ARRONDI */
-    /* margin-bottom: 15px; */
-    /* MARGE EN BAS */
 }
 
 
@@ -392,14 +418,12 @@ body {
     /* BORDURE RONDE */
     background: rgba(0, 0, 0, 0);
     /* COULEUR FOND TRANSPARENT */
-    margin: 10px;
+    margin: 20px;
     /* MARGE */
     border: 7px solid var(--r);
     /* LARGEUR, TYPE, COULEUR BORDURE */
     text-align: center;
     /* CENTRER TEXTE */
-    /* position: absolute; */
-    /* POSITION */
 }
 
 .cercle2 {
@@ -411,14 +435,12 @@ body {
     /* BORDURE RONDE */
     background: rgba(0, 0, 0, 0);
     /* COULEUR FOND TRANSPARENT */
-    margin: 10px;
+    margin: 20px;
     /* MARGE */
     border: 7px solid var(--j);
     /* LARGEUR, TYPE, COULEUR BORDURE */
     text-align: center;
     /* CENTRER TEXTE */
-    /* position: absolute; */
-    /* POSITION */
 }
 
 .cercle3 {
@@ -430,12 +452,10 @@ body {
     /* BORDURE RONDE */
     background: rgba(0, 0, 0, 0);
     /* COULEUR FOND TRANSPARENT */
-    margin: 10px;
+    margin: 20px;
     /* MARGE */
     border: 7px solid var(--v);
     /* LARGEUR, TYPE, COULEUR BORDURE */
     text-align: center;
     /* CENTRER TEXTE */
-    /* position: absolute; */
-    /* POSITION */
 }
