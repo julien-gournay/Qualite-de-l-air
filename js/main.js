@@ -41,8 +41,19 @@ setInterval(function(){
 function validate(){
     var username=document.getElementById("username").value;
     var password=document.getElementById("password").value;
-    if(username=="samuel.p"&& password=="210904" || username=="adrien.r"&& password=="230704" || username=="julien.g"&& password=="170104"){
+    if(username=="samuel.p"&& password=="210904"){
         document.location.href="admin.html";
+        user = 'Samuel';
+        return false;
+    }
+    if(username=="adrien.r"&& password=="230704"){
+        document.location.href="admin.html";
+        user = 'Adrien';
+        return false;
+    }
+    if(username=="julien.g"&& password=="170104"){
+        document.location.href="admin.html";
+        user = 'Julien';
         return false;
     }
     else{
@@ -54,7 +65,7 @@ function validate(){
         }
         if(username==0){
             var div = document.getElementById('incorrect');
-            div.innerHTML = 'Veuillez saisir le nom utilsateur';
+            div.innerHTML = 'Veuillez saisir le nom utilisateur';
             return false
         }
         if(password==0){
@@ -68,20 +79,4 @@ function validate(){
             return false
         }
     }
-}
-
-
-
-function verif() 
-{
-	var inputList = document.forms['form-group'].elements;
-	var alertTxt = "incorrect";
-	for (unInput in inputList)
-	{
-		if(unInput.type=="text" && unInput.value.length==0)
-		{
-			alertTxt += "Le champ " + unInput.name + " n'a pas été rempli \n";
-		}
-	}
-	alert(alertTxt)
 }
