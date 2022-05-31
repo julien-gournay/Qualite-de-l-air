@@ -79,7 +79,7 @@ img{
 
 .card .btn{
     display: block;
-    margin: 40px auto;
+    margin: 40px auto 5% auto;
     text-align: center;
     background-color: #f9f9f9;
     color: #333;
@@ -118,4 +118,11 @@ img{
     color: #fff;
     font-size: 25px;
     text-align: center;
+}
+
+.incorrect{
+    color: var(--red);
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 5%;
 }
