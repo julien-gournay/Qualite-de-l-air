@@ -6,8 +6,9 @@ Projet final en SIN - " Station de surveillance de la qualité de l'air "
 ## ❗ Informations
 
 #### Version du site : ` Béta fermée `
-#### Avancement : ` En cours `
-#### Déploiement : ` 192.168.51.242 `
+#### Avancement : ` Abandonné `
+#### Déploiement : ` NON `
+#### Nouvelle version : ` Bientôt `
 
 
 ## 🧩 Auteurs
